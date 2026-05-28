@@ -1,7 +1,10 @@
 import Image from "next/image";
 
 export default function Home() {
-  const video = "/user1Swing.mp4";
+  const video1 = "/user1Swing.mp4";
+  const video2 = "/user1Gus17-4.mp4";
+  const video3 = "/user1Gus14-2.mp4";
+
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
@@ -35,7 +38,13 @@ export default function Home() {
             center.
           </p>
           <video controls width="250">
-            <source src={video} type="video/mp4"/>
+            <source src={video1} type="video/mp4"/>
+          </video>
+          <video controls width="250">
+            <source src={video2} type="video/mp4"/>
+          </video>
+          <video controls width="250">
+            <source src={video3} type="video/mp4"/>
           </video>
   <source src="/shared-assets/videos/flower.webm" type="video/webm" />
         </div>
