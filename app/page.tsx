@@ -16,7 +16,7 @@ export default function Home() {
           height={20}
           priority
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+        <div className="grid grid-cols-3 gap-4">
           
           <video controls width="250">
             <source src={video1} type="video/mp4"/>
